@@ -91,4 +91,28 @@ form button{
 }
 
 
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  .container form {
+    width: 65%;
+  }
+}
+
+ /* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .container form {
+    width: 75%;
+    height: 85%;
+  }
+  .input-group {
+    display: grid;
+    margin: 20px 0
+  }
+  .input-group input, .input-group textarea {
+    padding: 5px 0;
+  }
+  form button {
+   margin: 25px auto 10px;
+  }
+}
 
